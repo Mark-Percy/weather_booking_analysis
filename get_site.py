@@ -7,6 +7,10 @@ from selenium.webdriver.common.by import By
 
 import time
 
+"""
+    Opens site page for a given url
+    converts page contents to a beautiful soup object for later use
+"""
 class GetSite:
     
     def __init__(self, site):
